@@ -35,6 +35,7 @@ function App() {
 }
 
 //Food의 타입을 명시
+//외부라이브러리 사용한것이다. 
 Food.propTypes = {
   name : PropTypes.string.isRequired,
   picture: PropTypes.string.isRequired,
