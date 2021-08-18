@@ -7,6 +7,7 @@ class App extends React.Component {
   state = {
     isLoading : true,
   }
+  //async 와 await 는 한쌍이다 데이터 가져올때까지 기다려 달라는것과 같은 것이다.
   getMovies = async () => {
     const movies = await axios.get('https://yts.mx/api/v2/movie_details.json?movie_id=10');
   }
